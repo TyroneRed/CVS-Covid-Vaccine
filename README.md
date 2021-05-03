@@ -8,6 +8,6 @@ Alter line 6 to change from Michigan to another state. Alternatively, create a f
 The list splice at line 13 is for testing purposes.
 
 To prevent too frequent retweeting of appointments, a list is created for each tweeted city and stored in 'tweeted_cities.json'. 
-clear_tweeted_cities.py can be run on a separate schedule to clear the list.
+tweeted_cities.py can be run on a separate schedule to clear the list.
 
 To run the code, registration with the twitter API is required, along with API Key, API Key Secret, Access Token and Acess Token Secret. 
