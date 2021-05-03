@@ -3,7 +3,7 @@
 michigan_covid_vaccine_finder.py navigates the cvs vaccine appointment website and checks for appointments from the zip codes in the 'cvs_zip_codes.json' file.
 When appointments are found, a tweet is posted on twitter with the location and the time the appointment was found.
 
-michigan.cvs.py scrapes the CVS website for the zip codes of Michigan CVS locations stores the set as a list in a json file called 'cvs_zip_codes.json'.
+michigan.cvs.py scrapes the CVS website for the zip codes of Michigan CVS locations and stores the set as a list in a json file called 'cvs_zip_codes.json'.
 Alter line 6 to change from Michigan to another state. Alternatively, create a file named 'cvs_zip_codes.json' with the zip codes stored as a list.
 The list splice at line 13 is for testing purposes.
 
