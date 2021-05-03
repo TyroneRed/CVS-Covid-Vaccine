@@ -1,7 +1,7 @@
 # CVS-Covid-Vaccine
 
 michigan_covid_vaccine_finder.py navigates the cvs vaccine appointment website and checks for appointments from the zip codes in the 'cvs_zip_codes.json' file.
-When appointments are found, a tweet is posted on twitter with the location and the time the appointment was found.
+When appointments are found, a tweet is posted on twitter with the location and the time the appointment was found. At line 54, setting the keys to age 16 ensures appointments will be found for the Pfizer vaccine. Setting this key to any age >= 18 will find appointments for any of the available vaccines.
 
 michigan.cvs.py scrapes the CVS website for the zip codes of Michigan CVS locations and stores the set as a list in a json file called 'cvs_zip_codes.json'.
 Alter line 6 to change from Michigan to another state. Alternatively, create a file named 'cvs_zip_codes.json' with the zip codes stored as a list.
