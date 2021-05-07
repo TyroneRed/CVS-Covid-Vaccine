@@ -1,5 +1,6 @@
 # CVS-Covid-Vaccine
-Created with python 3.9, tweepy 3.10.0, and selenium 3.141.0
+Created with python 3.9, tweepy 3.10.0, and selenium 3.141.0.
+
 Registration with the twitter API is required, along with API Key, API Key Secret, Access Token and Access Token Secret. 
 
 michigan_covid_vaccine_finder.py navigates the cvs vaccine appointment website and checks for appointments from the zip codes in the 'cvs_zip_codes.json' file.
